@@ -1,0 +1,32 @@
+{
+  "name": "nate-ui",
+  "version": "1.0.0",
+  "description": "Nate Taylor's UI Tookit.",
+  "main": "dist/index.js",
+  "author": "Nate Taylor",
+  "license": "MIT",
+  "scripts": {
+    "kit": "kit examples",
+    "prepare": "$(yarn bin)/babel src -d dist",
+    "test": "jest test.js"
+  },
+  "dependencies": {
+    "@compositor/md": "^1.0.34",
+    "react": "^16.4.1",
+    "rebass": "^2.0.0-5",
+    "refunk": "^3.0.1"
+  },
+  "devDependencies": {
+    "@compositor/kit": "^1.0.42",
+    "@compositor/kit-cli": "^1.0.42",
+    "@compositor/kit-snapshot": "^1.0.24",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "jest": "^23.1.0"
+  },
+  "jest": {
+    "collectCoverage": true
+  }
+}
