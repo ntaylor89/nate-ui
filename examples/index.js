@@ -1,4 +1,4 @@
-export { defualt as Blockquote } from './Blockquote'
+export { default as Blockquote } from './Blockquote'
 export { default as Button } from './Button'
 export { default as ButtonOutline } from './ButtonOutline'
 export { default as Divider } from './Divider'
