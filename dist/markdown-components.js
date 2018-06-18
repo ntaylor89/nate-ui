@@ -18,58 +18,25 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 var MD = {
   h1: (0, _md.heading)(function (props) {
-    return _react2.default.createElement(_.Heading, _extends({}, props, {
-      is: 'h1',
-      fontSize: 6,
-      mt: 5,
-      mb: 3
-    }));
+    return _react2.default.createElement(_.H1, props);
   }),
   h2: (0, _md.heading)(function (props) {
-    return _react2.default.createElement(_.Heading, _extends({}, props, {
-      is: 'h2',
-      fontSize: 4,
-      mt: 4,
-      mb: 3
-    }));
+    return _react2.default.createElement(_.H2, props);
   }),
   h3: (0, _md.heading)(function (props) {
-    return _react2.default.createElement(_.Heading, _extends({}, props, {
-      is: 'h3',
-      fontSize: 3,
-      mt: 4,
-      mb: 3
-    }));
+    return _react2.default.createElement(_.H3, props);
   }),
   h4: (0, _md.heading)(function (props) {
-    return _react2.default.createElement(_.Heading, _extends({}, props, {
-      is: 'h4',
-      fontSize: 2,
-      mt: 4,
-      mb: 3
-    }));
+    return _react2.default.createElement(_.H4, props);
   }),
   h5: (0, _md.heading)(function (props) {
-    return _react2.default.createElement(_.Heading, _extends({}, props, {
-      is: 'h5',
-      fontSize: 1,
-      mt: 3,
-      mb: 2
-    }));
+    return _react2.default.createElement(_.H5, props);
   }),
   h6: (0, _md.heading)(function (props) {
-    return _react2.default.createElement(_.Heading, _extends({}, props, {
-      is: 'h6',
-      fontSize: 1,
-      mt: 3,
-      mb: 2
-    }));
+    return _react2.default.createElement(_.H6, props);
   }),
   p: function p(props) {
-    return _react2.default.createElement(_.Text, _extends({}, props, {
-      fontSize: 3,
-      mb: 4
-    }));
+    return _react2.default.createElement(_.P, props);
   },
   a: (0, _md.link)(function (props) {
     return _react2.default.createElement(_.Link, props);

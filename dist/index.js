@@ -36,12 +36,6 @@ Object.defineProperty(exports, 'Flex', {
     return _rebass.Flex;
   }
 });
-Object.defineProperty(exports, 'Heading', {
-  enumerable: true,
-  get: function get() {
-    return _rebass.Heading;
-  }
-});
 Object.defineProperty(exports, 'Image', {
   enumerable: true,
   get: function get() {
@@ -178,6 +172,69 @@ Object.defineProperty(exports, 'Footer', {
   }
 });
 
+var _H = require('./H1');
+
+Object.defineProperty(exports, 'H1', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_H).default;
+  }
+});
+
+var _H2 = require('./H2');
+
+Object.defineProperty(exports, 'H2', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_H2).default;
+  }
+});
+
+var _H3 = require('./H3');
+
+Object.defineProperty(exports, 'H3', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_H3).default;
+  }
+});
+
+var _H4 = require('./H4');
+
+Object.defineProperty(exports, 'H4', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_H4).default;
+  }
+});
+
+var _H5 = require('./H5');
+
+Object.defineProperty(exports, 'H5', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_H5).default;
+  }
+});
+
+var _H6 = require('./H6');
+
+Object.defineProperty(exports, 'H6', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_H6).default;
+  }
+});
+
+var _Heading = require('./Heading');
+
+Object.defineProperty(exports, 'Heading', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_Heading).default;
+  }
+});
+
 var _Input = require('./Input');
 
 Object.defineProperty(exports, 'Input', {
@@ -202,6 +259,15 @@ Object.defineProperty(exports, 'NavBar', {
   enumerable: true,
   get: function get() {
     return _interopRequireDefault(_NavBar).default;
+  }
+});
+
+var _P = require('./P');
+
+Object.defineProperty(exports, 'P', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_P).default;
   }
 });
 
