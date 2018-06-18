@@ -6,8 +6,8 @@
   "author": "Nate Taylor",
   "license": "MIT",
   "scripts": {
-    "kit": "kit examples",
-    "prepare": "$(yarn bin)/babel src -d dist",
+    "kit": "kit -o examples",
+    "prepare": "babel src -d dist",
     "test": "jest test.js"
   },
   "dependencies": {

@@ -6,8 +6,10 @@ import ButtonOutline from './ButtonOutline'
 import Dl from './Dl'
 import Divider from './Divider'
 import Footer from './Footer'
+import Headings from './Headings'
 import Input from './Input'
 import NavBar from './NavBar'
+import P from './P'
 import Select from './Select'
 
 export default () =>
@@ -30,11 +32,17 @@ export default () =>
     <Example name='Footer'>
       <Footer />
     </Example>
+    <Example name='Headings'>
+      <Headings />
+    </Example>
     <Example name='Input'>
       <Input />
     </Example>
     <Example name='NavBar'>
       <NavBar />
+    </Example>
+    <Example name='P'>
+      <P />
     </Example>
     <Example name='Select'>
       <Select />

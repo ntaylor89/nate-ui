@@ -8,73 +8,41 @@ import {
   Code,
   Divider,
   Heading,
+  H1,
+  H2,
+  H3,
+  H4,
+  H5,
+  H6,
   Image,
   Link,
+  P,
   Pre,
   Text
 } from '.'
 
 const MD = {
   h1: heading(props =>
-    <Heading
-      {...props}
-      is='h1'
-      fontSize={6}
-      mt={5}
-      mb={3}
-    />
+    <H1 {...props} />
   ),
   h2: heading(props =>
-    <Heading
-      {...props}
-      is='h2'
-      fontSize={4}
-      mt={4}
-      mb={3}
-    />
+    <H2 {...props} />
   ),
   h3: heading(props =>
-    <Heading
-      {...props}
-      is='h3'
-      fontSize={3}
-      mt={4}
-      mb={3}
-    />
+    <H3 {...props} />
   ),
   h4: heading(props =>
-    <Heading
-      {...props}
-      is='h4'
-      fontSize={2}
-      mt={4}
-      mb={3}
-    />
+    <H4 {...props} />
   ),
   h5: heading(props =>
-    <Heading
-      {...props}
-      is='h5'
-      fontSize={1}
-      mt={3}
-      mb={2}
-    />
+    <H5 {...props} />
   ),
   h6: heading(props =>
-    <Heading
-      {...props}
-      is='h6'
-      fontSize={1}
-      mt={3}
-      mb={2}
-    />
+    <H6 {...props} />
   ),
-  p: props =>
-    <Text
-      {...props}
-      fontSize={3}
-      mb={4}
-    />,
+  p: props => (
+    <P {...props} />
+  ),
   a: link(props =>
     <Link
       {...props}
