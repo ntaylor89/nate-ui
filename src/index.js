@@ -6,6 +6,7 @@ export {
   Flex,
   Image,
   Link,
+  Measure,
   NavLink,
   Pre,
   Text,

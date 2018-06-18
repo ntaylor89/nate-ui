@@ -1,6 +1,6 @@
 {
   "name": "nate-ui",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Nate Taylor's UI Tookit.",
   "main": "dist/index.js",
   "author": "Nate Taylor",
