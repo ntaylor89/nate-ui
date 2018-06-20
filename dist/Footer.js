@@ -24,7 +24,7 @@ var Base = (0, _systemComponents2.default)({
 var Footer = function Footer(props) {
   return _react2.default.createElement(
     Base,
-    null,
+    props,
     _react2.default.createElement(
       _rebass.Small,
       null,

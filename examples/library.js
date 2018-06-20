@@ -3,13 +3,15 @@ import { Library, Example } from '@compositor/kit'
 import Blockquote from './Blockquote'
 import Button from './Button'
 import ButtonOutline from './ButtonOutline'
-import Dl from './Dl'
 import Divider from './Divider'
+import Dl from './Dl'
 import Footer from './Footer'
 import Headings from './Headings'
 import Input from './Input'
+import Middle from './Middle'
 import NavBar from './NavBar'
 import P from './P'
+import Section from './Section'
 import Select from './Select'
 
 export default () =>
@@ -38,11 +40,17 @@ export default () =>
     <Example name='Input'>
       <Input />
     </Example>
+    <Example name='Middle'>
+      <Middle />
+    </Example>
     <Example name='NavBar'>
       <NavBar />
     </Example>
     <Example name='P'>
       <P />
+    </Example>
+    <Example name='Section'>
+      <Section />
     </Example>
     <Example name='Select'>
       <Select />

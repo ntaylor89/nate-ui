@@ -1,6 +1,6 @@
 {
   "name": "nate-ui",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Nate Taylor's UI Tookit.",
   "main": "dist/index.js",
   "author": "Nate Taylor",
@@ -8,13 +8,15 @@
   "scripts": {
     "kit": "kit -o examples",
     "prepare": "babel src -d dist",
-    "test": "jest test.js"
+    "test": "jest test.js",
+    "testUpdate": "jest --updateSnapshot test.js"
   },
   "dependencies": {
     "@compositor/md": "^1.0.34",
     "react": "^16.4.1",
     "rebass": "^2.0.0-5",
-    "refunk": "^3.0.1"
+    "refunk": "^3.0.1",
+    "styled-components": "^3.3.2"
   },
   "devDependencies": {
     "@compositor/kit": "^1.0.42",

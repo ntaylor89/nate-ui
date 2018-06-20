@@ -8,7 +8,7 @@ const Base = system({
 })
 
 const Footer = props =>
-  <Base>
+  <Base {...props}>
     <Small>
       <Text
         textAlign='center'
