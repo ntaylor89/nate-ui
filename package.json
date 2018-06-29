@@ -1,34 +1,43 @@
 {
   "name": "nate-ui",
-  "version": "1.0.3",
-  "description": "Nate Taylor's UI Tookit.",
-  "main": "dist/index.js",
+  "version": "1.1.0",
+  "description": "Nate Taylor's UI Toolkit",
   "author": "Nate Taylor",
   "license": "MIT",
+  "main": "dist/index.js",
   "scripts": {
-    "kit": "kit -o examples",
     "prepare": "babel src -d dist",
-    "test": "jest test.js",
-    "testUpdate": "jest --updateSnapshot test.js"
+    "start": "kit -o examples",
+    "test": "jest",
+    "testUpdate": "jest --updateSnapshot"
   },
   "dependencies": {
-    "@compositor/md": "^1.0.34",
-    "react": "^16.4.1",
-    "rebass": "^2.0.0-5",
-    "refunk": "^3.0.1",
-    "styled-components": "^3.3.2"
+    "rebass": "^2.0.0",
+    "styled-components": "^3.3.3",
+    "styled-system": "^2.3.2"
   },
   "devDependencies": {
-    "@compositor/kit": "^1.0.42",
-    "@compositor/kit-cli": "^1.0.42",
+    "@compositor/kit-cli": "^1.0.47",
     "@compositor/kit-snapshot": "^1.0.24",
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-0": "^6.24.1",
-    "jest": "^23.1.0"
+    "jest": "^22.4.3",
+    "jest-styled-components": "^5.0.1",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-test-renderer": "^16.4.1"
+  },
+  "peerDependencies": {
+    "styled-components": ">=3.0.0"
   },
   "jest": {
-    "collectCoverage": true
+    "testMatch": [
+      "**/tests/**/*.js"
+    ],
+    "collectCoverageFrom": [
+      "**/src/**/*.js"
+    ]
   }
 }
