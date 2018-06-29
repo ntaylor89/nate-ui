@@ -12,6 +12,12 @@ Object.defineProperty(exports, 'BackgroundImage', {
     return _rebass.BackgroundImage;
   }
 });
+Object.defineProperty(exports, 'BlockLink', {
+  enumerable: true,
+  get: function get() {
+    return _rebass.BlockLink;
+  }
+});
 Object.defineProperty(exports, 'Box', {
   enumerable: true,
   get: function get() {
@@ -289,12 +295,12 @@ Object.defineProperty(exports, 'Select', {
   }
 });
 
-var _Subhead = require('./Subhead');
+var _SubHead = require('./SubHead');
 
 Object.defineProperty(exports, 'SubHead', {
   enumerable: true,
   get: function get() {
-    return _interopRequireDefault(_Subhead).default;
+    return _interopRequireDefault(_SubHead).default;
   }
 });
 

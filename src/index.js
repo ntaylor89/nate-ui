@@ -1,5 +1,6 @@
 export {
   BackgroundImage,
+  BlockLink,
   Box,
   Container,
   Flex,
@@ -36,4 +37,4 @@ export { default as P } from './P'
 export { default as Pre } from './Pre'
 export { default as Section } from './Section'
 export { default as Select } from './Select'
-export { default as SubHead } from './Subhead'
+export { default as SubHead } from './SubHead'
