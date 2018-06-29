@@ -14,7 +14,7 @@ var _styledComponents = require('styled-components');
 
 var _styledComponents2 = _interopRequireDefault(_styledComponents);
 
-var _systemComponents = require('system-components');
+var _styledSystem = require('styled-system');
 
 var _rebass = require('rebass');
 
@@ -29,7 +29,7 @@ var Flex = (0, _styledComponents2.default)(function (_ref) {
       props = _objectWithoutProperties(_ref, ['height']);
 
   return _react2.default.createElement(_rebass.Flex, props);
-})(_templateObject, _systemComponents.height);
+})(_templateObject, _styledSystem.height);
 
 Flex.displayName = 'Flex';
 

@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { height } from 'system-components'
+import { height } from 'styled-system'
 import { Flex as Base } from 'rebass'
 
 const Flex = styled(({
