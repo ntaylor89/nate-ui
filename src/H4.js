@@ -1,7 +1,7 @@
 import React from 'react'
 import Heading from './Heading'
 
-export default props =>
+const H4 = props =>
   <Heading
     is='h4'
     fontSize={3}
@@ -9,3 +9,7 @@ export default props =>
     mb={3}
     {...props}
   />
+
+H4.displayName = 'H4'
+
+export default H4

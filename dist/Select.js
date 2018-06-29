@@ -14,8 +14,13 @@ var _rebass = require('rebass');
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-exports.default = function (props) {
+var Select = function Select(props) {
   return _react2.default.createElement(_rebass.Select, _extends({
-    px: 3
+    px: 3,
+    py: 2
   }, props));
 };
+
+Select.displayName = 'Select';
+
+exports.default = Select;

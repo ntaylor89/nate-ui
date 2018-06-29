@@ -1,6 +1,6 @@
 import React from 'react'
-import { Blockquote } from '../src'
 import withTheme from './_withTheme'
+import { Blockquote } from '../src'
 
 export default withTheme(() =>
   <Blockquote>

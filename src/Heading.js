@@ -1,7 +1,12 @@
 import React from 'react'
-import { Heading } from 'rebass'
-import system from 'system-components'
+import { Heading as Base } from 'rebass'
 
-export default system({
-  is: Heading,
-})
+const Heading = props =>
+  <Base
+    lineHeight={1.125}
+    {...props}
+  />
+
+Heading.displayName = 'Heading'
+
+export default Heading

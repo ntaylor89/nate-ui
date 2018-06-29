@@ -1,11 +1,13 @@
 import React from 'react'
 import { Text } from 'rebass'
 
-export default props =>
+const P = props =>
   <Text
     is='p'
-    fontSize={3}
-    mb={4}
-    mt={1}
+    my={2}
     {...props}
   />
+
+P.displayName = 'P'
+
+export default P

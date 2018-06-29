@@ -14,11 +14,13 @@ var _rebass = require('rebass');
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-exports.default = function (props) {
+var P = function P(props) {
   return _react2.default.createElement(_rebass.Text, _extends({
     is: 'p',
-    fontSize: 3,
-    mb: 4,
-    mt: 1
+    my: 2
   }, props));
 };
+
+P.displayName = 'P';
+
+exports.default = P;

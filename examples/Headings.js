@@ -1,4 +1,5 @@
 import React from 'react'
+import withTheme from './_withTheme'
 import {
   Container,
   H1,
@@ -8,7 +9,6 @@ import {
   H5,
   H6
 } from '../src'
-import withTheme from './_withTheme'
 
 export default withTheme(() =>
   <Container>

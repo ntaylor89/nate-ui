@@ -10,43 +10,38 @@ var _react = require('react');
 
 var _react2 = _interopRequireDefault(_react);
 
-var _ = require('.');
-
-var _systemComponents = require('system-components');
-
-var _systemComponents2 = _interopRequireDefault(_systemComponents);
+var _rebass = require('rebass');
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _objectWithoutProperties(obj, keys) { var target = {}; for (var i in obj) { if (keys.indexOf(i) >= 0) continue; if (!Object.prototype.hasOwnProperty.call(obj, i)) continue; target[i] = obj[i]; } return target; }
 
-var Header = (0, _systemComponents2.default)({ is: 'header' });
-
 var NavBar = function NavBar(_ref) {
-  var logo = _ref.logo,
-      children = _ref.children,
-      props = _objectWithoutProperties(_ref, ['logo', 'children']);
+  var children = _ref.children,
+      logo = _ref.logo,
+      props = _objectWithoutProperties(_ref, ['children', 'logo']);
 
   return _react2.default.createElement(
-    Header,
-    null,
+    _rebass.Box,
+    { is: 'header' },
     _react2.default.createElement(
-      _.Toolbar,
+      _rebass.Toolbar,
       _extends({
-        px: 3,
-        py: 2,
-        color: 'black',
-        bg: 'white'
+        px: 4,
+        pt: 3,
+        color: 'inherit',
+        bg: 'inherit',
+        alignItems: 'center'
       }, props),
       logo,
-      _react2.default.createElement(_.Box, { mx: 'auto' }),
+      _react2.default.createElement(_rebass.Box, { mx: 'auto' }),
       children
     )
   );
 };
 
 NavBar.defaultProps = {
-  logo: 'X'
+  logo: 'Nate Taylor'
 };
 
 exports.default = NavBar;

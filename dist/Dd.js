@@ -6,15 +6,20 @@ Object.defineProperty(exports, "__esModule", {
 
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
-var _systemComponents = require('system-components');
+var _react = require('react');
 
-var _systemComponents2 = _interopRequireDefault(_systemComponents);
+var _react2 = _interopRequireDefault(_react);
+
+var _rebass = require('rebass');
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-exports.default = (0, _systemComponents2.default)(function (props) {
-  return _extends({
-    is: 'dd',
-    color: props.color
-  }, props.center && { textAlign: 'center' });
-});
+var Dd = function Dd(props) {
+  return _react2.default.createElement(_rebass.Box, _extends({
+    is: 'dd'
+  }, props));
+};
+
+Dd.displayName = 'Dd';
+
+exports.default = Dd;

@@ -1,7 +1,7 @@
 import React from 'react'
-import { ThemeProvider } from '../src'
+import { Provider } from '../src'
 
 export default Component => () =>
-  <ThemeProvider>
+  <Provider>
     <Component />
-  </ThemeProvider>
+  </Provider>

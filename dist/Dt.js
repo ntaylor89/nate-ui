@@ -10,9 +10,10 @@ var _systemComponents2 = _interopRequireDefault(_systemComponents);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-exports.default = (0, _systemComponents2.default)(function (props) {
-  return {
-    is: 'dt',
-    display: props.display
-  };
-});
+var Dt = (0, _systemComponents2.default)({
+  is: 'dt'
+}, 'display');
+
+Dt.displayName = 'Dt';
+
+exports.default = Dt;

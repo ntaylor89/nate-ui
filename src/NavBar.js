@@ -2,28 +2,31 @@ import React from 'react'
 import {
   Box,
   Toolbar
-} from '.'
-import system from 'system-components'
+} from 'rebass'
 
-const Header = system({ is: 'header' })
-
-const NavBar = ({ logo, children, ...props}) =>
-  <Header>
+const NavBar = ({
+  children,
+  logo,
+  ...props
+}) => (
+  <Box is='header'>
     <Toolbar
-      px={3}
-      py={2}
-      color='black'
-      bg='white'
+      px={4}
+      pt={3}
+      color='inherit'
+      bg='inherit'
+      alignItems='center'
       {...props}
     >
       {logo}
       <Box mx='auto' />
       {children}
     </Toolbar>
-  </Header>
+  </Box>
+)
 
 NavBar.defaultProps = {
-  logo: 'X'
+  logo: 'Nate Taylor'
 }
 
 export default NavBar

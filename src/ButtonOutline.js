@@ -1,14 +1,13 @@
 import React from 'react'
-import { ButtonOutline } from 'rebass'
-import styled from 'styled-components'
-import { buttonStyle } from 'styled-system'
+import { ButtonOutline as Base } from 'rebass'
 
-export default styled(props =>
-  <ButtonOutline
+const ButtonOutline = props =>
+  <Base
     px={3}
     py={2}
     {...props}
   />
-)([], {
-  whitespace: 'nowrap'
-}, buttonStyle)
+
+ButtonOutline.displayName = 'ButtonOutline'
+
+export default ButtonOutline

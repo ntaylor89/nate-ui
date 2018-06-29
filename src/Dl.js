@@ -1,3 +1,9 @@
-import system from 'system-components'
+import sys from 'system-components'
 
-export default system({ is: 'dl' })
+const Dl = sys({
+  is: 'dl'
+}, 'textAlign')
+
+Dl.displayName = 'Dl'
+
+export default Dl

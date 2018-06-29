@@ -1,7 +1,12 @@
-import system from 'system-components'
+import React from 'react'
+import { Box } from 'rebass'
 
-export default system(props => ({
-  is: 'dd',
-  color: props.color,
-  ...(props.center && { textAlign: 'center' })
-}))
+const Dd = props =>
+  <Box
+    is='dd'
+    {...props}
+  />
+
+Dd.displayName = 'Dd'
+
+export default Dd

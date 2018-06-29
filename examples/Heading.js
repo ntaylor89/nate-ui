@@ -1,7 +1,9 @@
 import React from 'react'
-import { Heading } from '../src'
 import withTheme from './_withTheme'
+import { Heading } from '../src'
 
-export default withTheme(() =>
-  <Heading>Heading</Heading>
-)
+export default withTheme(() => (
+  <Heading>
+    Hello
+  </Heading>
+))

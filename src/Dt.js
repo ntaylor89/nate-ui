@@ -1,6 +1,9 @@
-import system from 'system-components'
+import sys from 'system-components'
 
-export default system(props => ({
-  is: 'dt',
-  display: props.display
-}))
+const Dt = sys({
+  is: 'dt'
+}, 'display')
+
+Dt.displayName = 'Dt'
+
+export default Dt

@@ -12,19 +12,15 @@ var _react2 = _interopRequireDefault(_react);
 
 var _rebass = require('rebass');
 
-var _styledComponents = require('styled-components');
-
-var _styledComponents2 = _interopRequireDefault(_styledComponents);
-
-var _styledSystem = require('styled-system');
-
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-exports.default = (0, _styledComponents2.default)(function (props) {
+var ButtonOutline = function ButtonOutline(props) {
   return _react2.default.createElement(_rebass.ButtonOutline, _extends({
     px: 3,
     py: 2
   }, props));
-})([], {
-  whitespace: 'nowrap'
-}, _styledSystem.buttonStyle);
+};
+
+ButtonOutline.displayName = 'ButtonOutline';
+
+exports.default = ButtonOutline;

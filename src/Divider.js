@@ -1,9 +1,20 @@
 import React from 'react'
-import { Divider } from 'rebass'
+import styled from 'styled-components'
+import { borderColor } from 'styled-system'
+import { Divider as Base } from 'rebass'
 
-export default props =>
-  <Divider
-    borderColor='gray'
-    my={4}
-    {...props}
-  />
+const Divider = styled(({
+  borderColor,
+  ...props
+}) => <Base {...props} />)`
+  ${borderColor}
+`
+
+Divider.defaultProps = {
+  my: 4,
+  borderColor: 'gray'
+}
+
+Divider.displayName = 'Divider'
+
+export default Divider

@@ -1,7 +1,12 @@
-import system from 'system-components'
+import React from 'react'
+import { Container } from 'rebass'
 
-export default system(props => ({
-  is: 'section',
-  mt: 5,
-  ...(props.measure && { maxWidth: '32rem' })
-}))
+const Section = ({ measure, ...props }) =>
+  <Container
+    is='section'
+    {...props}
+  />
+
+Section.displayName = 'Section'
+
+export default Section

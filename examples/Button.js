@@ -1,7 +1,19 @@
 import React from 'react'
-import { ThemeProvider, Button } from '../src'
+import { Matrix } from '@compositor/kit'
 import withTheme from './_withTheme'
+import { Button } from '../src'
 
-export default withTheme(() =>
-  <Button>Click Me</Button>
-)
+export default withTheme(() => (
+  <Matrix component={Button}
+    x={[
+      { children: 'Default', primary: true },
+      { children: 'Secondary', secondary: true },
+      { chldren: 'Error', error: true }
+    ]}
+    y={[
+      { size: 'small' },
+      { size: 'medium' },
+      { size: 'large' }
+    ]}
+  />
+))

@@ -1,14 +1,8 @@
 import React from 'react'
-import { Text, Small } from 'rebass'
-import system from 'system-components'
-
-const Base = system({
-  is: 'footer',
-  py: 4
-})
+import { Box, Small, Text } from 'rebass'
 
 const Footer = props =>
-  <Base {...props}>
+  <Box is='footer' py={4} {...props}>
     <Small>
       <Text
         textAlign='center'
@@ -17,6 +11,6 @@ const Footer = props =>
           Made with &lt;3 by Nate Taylor
       </Text>
     </Small>
-  </Base>
+  </Box>
 
 export default Footer

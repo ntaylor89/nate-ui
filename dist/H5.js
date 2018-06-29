@@ -16,7 +16,7 @@ var _Heading2 = _interopRequireDefault(_Heading);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-exports.default = function (props) {
+var H5 = function H5(props) {
   return _react2.default.createElement(_Heading2.default, _extends({
     is: 'h5',
     fontSize: 2,
@@ -24,3 +24,7 @@ exports.default = function (props) {
     mb: 2
   }, props));
 };
+
+H5.displayName = 'H5';
+
+exports.default = H5;

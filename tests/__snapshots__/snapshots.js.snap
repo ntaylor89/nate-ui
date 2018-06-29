@@ -1,0 +1,1682 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Blockquote renders 1`] = `
+.c0 {
+  font-family: "Avenir Next",Helvetica,sans-serif;
+}
+
+.c0 * {
+  box-sizing: border-box;
+}
+
+.c3 {
+  margin: 0px;
+}
+
+.c2 {
+  font-size: 24px;
+  margin: 0px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  padding-left: 16px;
+}
+
+.c1 {
+  border-left: 3px solid;
+}
+
+<div
+  className="c0"
+>
+  <blockquote
+    className="c1 c2 c3"
+  >
+    There but for the...
+  </blockquote>
+</div>
+`;
+
+exports[`Box renders 1`] = `
+.c1 {
+  box-sizing: border-box;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  color: #fff;
+  background-color: #07c;
+}
+
+.c0 {
+  font-family: "Avenir Next",Helvetica,sans-serif;
+}
+
+.c0 * {
+  box-sizing: border-box;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    Hello
+  </div>
+</div>
+`;
+
+exports[`Button renders 1`] = `
+.c0 {
+  font-family: "Avenir Next",Helvetica,sans-serif;
+}
+
+.c0 * {
+  box-sizing: border-box;
+}
+
+.c1 {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.1428571428571428;
+  margin: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  color: #fff;
+  background-color: #07c;
+  border-radius: 4px;
+  border: 0;
+  font-family: inherit;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.c1:disabled {
+  opacity: 0.25;
+}
+
+.c1:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #07c;
+}
+
+.c2 {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.1428571428571428;
+  margin: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  color: #fff;
+  background-color: #0CE890;
+  border-radius: 4px;
+  border: 0;
+  font-family: inherit;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.c2:disabled {
+  opacity: 0.25;
+}
+
+.c2:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #0CE890;
+}
+
+.c3 {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.1428571428571428;
+  margin: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  color: #fff;
+  background-color: #ee1000;
+  border-radius: 4px;
+  border: 0;
+  font-family: inherit;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.c3:disabled {
+  opacity: 0.25;
+}
+
+.c3:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #ee1000;
+}
+
+.c4 {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.1428571428571428;
+  margin: 8px;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  color: #fff;
+  background-color: #07c;
+  border-radius: 4px;
+  border: 0;
+  font-family: inherit;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.c4:disabled {
+  opacity: 0.25;
+}
+
+.c4:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #07c;
+}
+
+.c5 {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.1428571428571428;
+  margin: 8px;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  color: #fff;
+  background-color: #0CE890;
+  border-radius: 4px;
+  border: 0;
+  font-family: inherit;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.c5:disabled {
+  opacity: 0.25;
+}
+
+.c5:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #0CE890;
+}
+
+.c6 {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.1428571428571428;
+  margin: 8px;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  color: #fff;
+  background-color: #ee1000;
+  border-radius: 4px;
+  border: 0;
+  font-family: inherit;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.c6:disabled {
+  opacity: 0.25;
+}
+
+.c6:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #ee1000;
+}
+
+.c7 {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.1428571428571428;
+  margin: 8px;
+  padding-left: 64px;
+  padding-right: 64px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  color: #fff;
+  background-color: #07c;
+  border-radius: 4px;
+  border: 0;
+  font-family: inherit;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.c7:disabled {
+  opacity: 0.25;
+}
+
+.c7:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #07c;
+}
+
+.c8 {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.1428571428571428;
+  margin: 8px;
+  padding-left: 64px;
+  padding-right: 64px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  color: #fff;
+  background-color: #0CE890;
+  border-radius: 4px;
+  border: 0;
+  font-family: inherit;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.c8:disabled {
+  opacity: 0.25;
+}
+
+.c8:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #0CE890;
+}
+
+.c9 {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.1428571428571428;
+  margin: 8px;
+  padding-left: 64px;
+  padding-right: 64px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  color: #fff;
+  background-color: #ee1000;
+  border-radius: 4px;
+  border: 0;
+  font-family: inherit;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.c9:disabled {
+  opacity: 0.25;
+}
+
+.c9:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #ee1000;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="nano11fangb"
+  >
+    <div
+      className="nano1d47vpu"
+      w={512}
+    >
+      <button
+        className="c1"
+      >
+        Default
+      </button>
+    </div>
+    <style
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": ".nano1d47vpu{width:512px}",
+        }
+      }
+    />
+    <div
+      className="nano1d47vpu"
+      w={512}
+    >
+      <button
+        className="c2"
+      >
+        Secondary
+      </button>
+    </div>
+    <style
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": ".nano1d47vpu{width:512px}",
+        }
+      }
+    />
+    <div
+      className="nano1d47vpu"
+      w={512}
+    >
+      <button
+        chldren="Error"
+        className="c3"
+      />
+    </div>
+    <style
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": ".nano1d47vpu{width:512px}",
+        }
+      }
+    />
+  </div>
+  <style
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": ".nano11fangb{display:flex}.nano11fangb{overflow-x:auto}",
+      }
+    }
+  />
+  <div
+    className="nano11fangb"
+  >
+    <div
+      className="nano1d47vpu"
+      w={512}
+    >
+      <button
+        className="c4"
+      >
+        Default
+      </button>
+    </div>
+    <style
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": ".nano1d47vpu{width:512px}",
+        }
+      }
+    />
+    <div
+      className="nano1d47vpu"
+      w={512}
+    >
+      <button
+        className="c5"
+      >
+        Secondary
+      </button>
+    </div>
+    <style
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": ".nano1d47vpu{width:512px}",
+        }
+      }
+    />
+    <div
+      className="nano1d47vpu"
+      w={512}
+    >
+      <button
+        chldren="Error"
+        className="c6"
+      />
+    </div>
+    <style
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": ".nano1d47vpu{width:512px}",
+        }
+      }
+    />
+  </div>
+  <style
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": ".nano11fangb{display:flex}.nano11fangb{overflow-x:auto}",
+      }
+    }
+  />
+  <div
+    className="nano11fangb"
+  >
+    <div
+      className="nano1d47vpu"
+      w={512}
+    >
+      <button
+        className="c7"
+      >
+        Default
+      </button>
+    </div>
+    <style
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": ".nano1d47vpu{width:512px}",
+        }
+      }
+    />
+    <div
+      className="nano1d47vpu"
+      w={512}
+    >
+      <button
+        className="c8"
+      >
+        Secondary
+      </button>
+    </div>
+    <style
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": ".nano1d47vpu{width:512px}",
+        }
+      }
+    />
+    <div
+      className="nano1d47vpu"
+      w={512}
+    >
+      <button
+        chldren="Error"
+        className="c9"
+      />
+    </div>
+    <style
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": ".nano1d47vpu{width:512px}",
+        }
+      }
+    />
+  </div>
+  <style
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": ".nano11fangb{display:flex}.nano11fangb{overflow-x:auto}",
+      }
+    }
+  />
+</div>
+`;
+
+exports[`ButtonOutline renders 1`] = `
+.c0 {
+  font-family: "Avenir Next",Helvetica,sans-serif;
+}
+
+.c0 * {
+  box-sizing: border-box;
+}
+
+.c2 {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.1428571428571428;
+  margin: 0px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  color: #fff;
+  background-color: #07c;
+  border-radius: 4px;
+  border: 0;
+  font-family: inherit;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.c2:disabled {
+  opacity: 0.25;
+}
+
+.c2:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #07c;
+}
+
+.c1 {
+  color: #07c;
+  background-color: transparent;
+  box-shadow: inset 0 0 0 2px #07c;
+}
+
+.c1:hover {
+  color: #fff;
+  background-color: #07c;
+}
+
+<div
+  className="c0"
+>
+  <button
+    className="c1 c2"
+  >
+    Add +
+  </button>
+</div>
+`;
+
+exports[`Code renders 1`] = `
+.c0 {
+  font-family: "Avenir Next",Helvetica,sans-serif;
+}
+
+.c0 * {
+  box-sizing: border-box;
+}
+
+.c1 {
+  font-size: inherit;
+  font-family: Menlo,monospace;
+  background-color: #f6f6fc;
+}
+
+<div
+  className="c0"
+>
+  <code
+    className="c1"
+  >
+    npm i rebass
+  </code>
+</div>
+`;
+
+exports[`Divider renders 1`] = `
+.c0 {
+  font-family: "Avenir Next",Helvetica,sans-serif;
+}
+
+.c0 * {
+  box-sizing: border-box;
+}
+
+.c2 {
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  border: 0;
+  border-bottom: 1px solid;
+  border-color: #647171;
+}
+
+.c1 {
+  border-color: #647171;
+}
+
+<div
+  className="c0"
+>
+  <hr
+    className="c1 c2"
+  />
+</div>
+`;
+
+exports[`Dl renders 1`] = `
+.c3 {
+  box-sizing: border-box;
+}
+
+.c0 {
+  font-family: "Avenir Next",Helvetica,sans-serif;
+}
+
+.c0 * {
+  box-sizing: border-box;
+}
+
+.c1 {
+  text-align: center;
+}
+
+.c2 {
+  display: none;
+}
+
+<div
+  className="c0"
+>
+  <dl
+    className="c1"
+  >
+    <dt
+      className="c2"
+    >
+      Title
+    </dt>
+    <dd
+      className="c3"
+    >
+      My Title
+    </dd>
+  </dl>
+</div>
+`;
+
+exports[`Footer renders 1`] = `
+.c1 {
+  box-sizing: border-box;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.c0 {
+  font-family: "Avenir Next",Helvetica,sans-serif;
+}
+
+.c0 * {
+  box-sizing: border-box;
+}
+
+.c3 {
+  margin: 0px;
+}
+
+.c4 {
+  margin: 0px;
+  color: #647171;
+  text-align: center;
+}
+
+.c2 {
+  font-size: 12px;
+}
+
+<div
+  className="c0"
+>
+  <footer
+    className="c1"
+  >
+    <small
+      className="c2 c3"
+    >
+      <div
+        className="c4"
+      >
+        Made with &lt;3 by Nate Taylor
+      </div>
+    </small>
+  </footer>
+</div>
+`;
+
+exports[`H1 renders 1`] = `
+.c0 {
+  font-family: "Avenir Next",Helvetica,sans-serif;
+}
+
+.c0 * {
+  box-sizing: border-box;
+}
+
+.c1 {
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 1.125;
+  margin: 0px;
+  margin-bottom: 16px;
+  margin-top: 64px;
+}
+
+<div
+  className="c0"
+>
+  <h1
+    className="c1"
+  >
+    Heading 1
+  </h1>
+</div>
+`;
+
+exports[`H2 renders 1`] = `
+.c0 {
+  font-family: "Avenir Next",Helvetica,sans-serif;
+}
+
+.c0 * {
+  box-sizing: border-box;
+}
+
+.c1 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.125;
+  margin: 0px;
+  margin-bottom: 16px;
+  margin-top: 32px;
+}
+
+<div
+  className="c0"
+>
+  <h2
+    className="c1"
+  >
+    Heading 2
+  </h2>
+</div>
+`;
+
+exports[`H3 renders 1`] = `
+.c0 {
+  font-family: "Avenir Next",Helvetica,sans-serif;
+}
+
+.c0 * {
+  box-sizing: border-box;
+}
+
+.c1 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.125;
+  margin: 0px;
+  margin-bottom: 16px;
+  margin-top: 32px;
+}
+
+<div
+  className="c0"
+>
+  <h3
+    className="c1"
+  >
+    Heading 3
+  </h3>
+</div>
+`;
+
+exports[`H4 renders 1`] = `
+.c0 {
+  font-family: "Avenir Next",Helvetica,sans-serif;
+}
+
+.c0 * {
+  box-sizing: border-box;
+}
+
+.c1 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.125;
+  margin: 0px;
+  margin-bottom: 16px;
+  margin-top: 32px;
+}
+
+<div
+  className="c0"
+>
+  <h4
+    className="c1"
+  >
+    Heading 4
+  </h4>
+</div>
+`;
+
+exports[`H5 renders 1`] = `
+.c0 {
+  font-family: "Avenir Next",Helvetica,sans-serif;
+}
+
+.c0 * {
+  box-sizing: border-box;
+}
+
+.c1 {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.125;
+  margin: 0px;
+  margin-bottom: 8px;
+  margin-top: 16px;
+}
+
+<div
+  className="c0"
+>
+  <h5
+    className="c1"
+  >
+    Heading 5
+  </h5>
+</div>
+`;
+
+exports[`H6 renders 1`] = `
+.c0 {
+  font-family: "Avenir Next",Helvetica,sans-serif;
+}
+
+.c0 * {
+  box-sizing: border-box;
+}
+
+.c1 {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.125;
+  margin: 0px;
+  margin-bottom: 8px;
+  margin-top: 16px;
+}
+
+<div
+  className="c0"
+>
+  <h6
+    className="c1"
+  >
+    Heading 6
+  </h6>
+</div>
+`;
+
+exports[`Heading renders 1`] = `
+.c0 {
+  font-family: "Avenir Next",Helvetica,sans-serif;
+}
+
+.c0 * {
+  box-sizing: border-box;
+}
+
+.c1 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.125;
+  margin: 0px;
+}
+
+<div
+  className="c0"
+>
+  <h2
+    className="c1"
+  >
+    Hello
+  </h2>
+</div>
+`;
+
+exports[`Headings renders 1`] = `
+.c2 {
+  box-sizing: border-box;
+}
+
+.c0 {
+  font-family: "Avenir Next",Helvetica,sans-serif;
+}
+
+.c0 * {
+  box-sizing: border-box;
+}
+
+.c3 {
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 1.125;
+  margin: 0px;
+  margin-bottom: 16px;
+  margin-top: 64px;
+}
+
+.c4 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.125;
+  margin: 0px;
+  margin-bottom: 16px;
+  margin-top: 32px;
+}
+
+.c5 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.125;
+  margin: 0px;
+  margin-bottom: 16px;
+  margin-top: 32px;
+}
+
+.c6 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.125;
+  margin: 0px;
+  margin-bottom: 16px;
+  margin-top: 32px;
+}
+
+.c7 {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.125;
+  margin: 0px;
+  margin-bottom: 8px;
+  margin-top: 16px;
+}
+
+.c8 {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.125;
+  margin: 0px;
+  margin-bottom: 8px;
+  margin-top: 16px;
+}
+
+.c1 {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+  max-width: 1024px;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1 c2"
+  >
+    <h1
+      className="c3"
+    >
+      Heading 1 (H1)
+    </h1>
+    <h2
+      className="c4"
+    >
+      Heading 2 (H2)
+    </h2>
+    <h3
+      className="c5"
+    >
+      Heading 3 (H3)
+    </h3>
+    <h4
+      className="c6"
+    >
+      Heading 4 (H4)
+    </h4>
+    <h5
+      className="c7"
+    >
+      Heading 5 (H5)
+    </h5>
+    <h6
+      className="c8"
+    >
+      Heading 6 (H6)
+    </h6>
+  </div>
+</div>
+`;
+
+exports[`Input renders 1`] = `
+.c2 {
+  box-sizing: border-box;
+}
+
+.c0 {
+  font-family: "Avenir Next",Helvetica,sans-serif;
+}
+
+.c0 * {
+  box-sizing: border-box;
+}
+
+.c3 {
+  font-size: inherit;
+  line-height: inherit;
+  margin: 0px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  width: 100%;
+  border: 0;
+  border-color: #647171;
+  box-shadow: inset 0 0 0 1px #eee;
+  border-radius: 4px;
+  color: inherit;
+  background-color: transparent;
+  font-family: inherit;
+  display: inline-block;
+  vertical-align: middle;
+  border: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.c3:focus {
+  outline: none;
+  box-shadow: inset 0 0 0 1px #07c;
+}
+
+.c3:disabled {
+  opacity: 0.25;
+}
+
+.c1 {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+  max-width: 1024px;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1 c2"
+  >
+    <input
+      className="c3"
+      placeholder="Type something..."
+      type="text"
+    />
+  </div>
+</div>
+`;
+
+exports[`Li renders 1`] = `
+.c1 {
+  box-sizing: border-box;
+}
+
+.c0 {
+  font-family: "Avenir Next",Helvetica,sans-serif;
+}
+
+.c0 * {
+  box-sizing: border-box;
+}
+
+.c2 {
+  margin: 0px;
+  margin-bottom: 8px;
+  font-size: 24px;
+}
+
+<div
+  className="c0"
+>
+  <ul
+    className="c1"
+  >
+    <li
+      className="c2"
+    >
+      Thing 1
+    </li>
+    <li
+      className="c2"
+    >
+      Thing A
+    </li>
+    <li
+      className="c2"
+    >
+      Thing Blue
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`MD renders 1`] = `
+.c1 {
+  box-sizing: border-box;
+}
+
+.c0 {
+  font-family: "Avenir Next",Helvetica,sans-serif;
+}
+
+.c0 * {
+  box-sizing: border-box;
+}
+
+.c9 {
+  color: #07c;
+}
+
+.c14 {
+  margin: 0px;
+}
+
+.c17 {
+  margin: 0px;
+  margin-bottom: 8px;
+  font-size: 24px;
+}
+
+.c3 {
+  margin: 0px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.c2 {
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 1.125;
+  margin: 0px;
+  margin-bottom: 16px;
+  margin-top: 64px;
+}
+
+.c4 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.125;
+  margin: 0px;
+  margin-bottom: 16px;
+  margin-top: 32px;
+}
+
+.c5 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.125;
+  margin: 0px;
+  margin-bottom: 16px;
+  margin-top: 32px;
+}
+
+.c6 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.125;
+  margin: 0px;
+  margin-bottom: 16px;
+  margin-top: 32px;
+}
+
+.c7 {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.125;
+  margin: 0px;
+  margin-bottom: 8px;
+  margin-top: 16px;
+}
+
+.c8 {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.125;
+  margin: 0px;
+  margin-bottom: 8px;
+  margin-top: 16px;
+}
+
+.c13 {
+  font-size: 24px;
+  margin: 0px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  padding-left: 16px;
+}
+
+.c16 {
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  border: 0;
+  border-bottom: 1px solid;
+  border-color: #647171;
+}
+
+.c11 {
+  font-size: 16px;
+  font-family: Menlo,monospace;
+  margin: 0px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  padding: 8px;
+  overflow: auto;
+  background-color: #f6f6fc;
+}
+
+.c10 {
+  font-size: inherit;
+  font-family: Menlo,monospace;
+  background-color: #f6f6fc;
+}
+
+.c18 {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 16px;
+}
+
+.c12 {
+  border-left: 3px solid;
+}
+
+.c15 {
+  border-color: #647171;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <h1
+      className="c2"
+      id="Markdown"
+    >
+      Markdown Components
+    </h1>
+    <p
+      className="c3"
+      id="Paragraph"
+    >
+      Markdown Paragraph
+    </p>
+    <h1
+      className="c2"
+      id="h1"
+    >
+      Hello, h1
+    </h1>
+    <br />
+    <h2
+      className="c4"
+      id="h2"
+    >
+      Hello, h2
+    </h2>
+    <br />
+    <h3
+      className="c5"
+      id="h3"
+    >
+      Hello, h3
+    </h3>
+    <br />
+    <h4
+      className="c6"
+      id="h4"
+    >
+      Hello, h4
+    </h4>
+    <br />
+    <h5
+      className="c7"
+      id="h5"
+    >
+      Hello, h5
+    </h5>
+    <br />
+    <h6
+      className="c8"
+      id="h6"
+    >
+      Hello, h6
+    </h6>
+    <br />
+    <p
+      className="c3"
+      id="p"
+    >
+      Hello, p
+    </p>
+    <br />
+    <a
+      className="c9"
+      id="a"
+    >
+      Hello, a
+    </a>
+    <br />
+    <code
+      className="c10"
+      id="code"
+    >
+      Hello, code
+    </code>
+    <br />
+    <pre
+      className="c11"
+      id="pre"
+    >
+      Hello, pre
+    </pre>
+    <br />
+    <blockquote
+      className="c12 c13 c14"
+      id="blockquote"
+    >
+      Hello, blockquote
+    </blockquote>
+    <br />
+    <hr
+      className="c15 c16"
+      id="hr"
+    />
+    <br />
+    <li
+      className="c17"
+      id="li"
+    >
+      Hello, li
+    </li>
+    <br />
+    <img
+      className="c18"
+      id="img"
+    />
+    <br />
+  </div>
+</div>
+`;
+
+exports[`NavBar renders 1`] = `
+.c1 {
+  box-sizing: border-box;
+}
+
+.c4 {
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c0 {
+  font-family: "Avenir Next",Helvetica,sans-serif;
+}
+
+.c0 * {
+  box-sizing: border-box;
+}
+
+.c5 {
+  color: inherit;
+  background-color: transparent;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 8px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-align-self: stretch;
+  -ms-flex-item-align: stretch;
+  align-self: stretch;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.c5:disabled {
+  opacity: 0.25;
+}
+
+.c2 {
+  padding-top: 16px;
+  padding-left: 32px;
+  padding-right: 32px;
+  color: inherit;
+  background-color: inherit;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-height: 48px;
+  -webkit-font-smoothing: antialiased;
+}
+
+<div
+  className="c0"
+>
+  <header
+    className="c1"
+  >
+    <div
+      className="c2 c3 c1"
+    >
+      My Site
+      <div
+        className="c4"
+      />
+      <a
+        className="c5"
+        href="/about"
+      >
+        About
+      </a>
+      <a
+        className="c5"
+        href="/posts"
+      >
+        Posts
+      </a>
+    </div>
+  </header>
+</div>
+`;
+
+exports[`P renders 1`] = `
+.c2 {
+  box-sizing: border-box;
+}
+
+.c0 {
+  font-family: "Avenir Next",Helvetica,sans-serif;
+}
+
+.c0 * {
+  box-sizing: border-box;
+}
+
+.c3 {
+  margin: 0px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.c1 {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+  max-width: 1024px;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1 c2"
+  >
+    <p
+      className="c3"
+    >
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </p>
+    <p
+      className="c3"
+    >
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Pre renders 1`] = `
+.c0 {
+  font-family: "Avenir Next",Helvetica,sans-serif;
+}
+
+.c0 * {
+  box-sizing: border-box;
+}
+
+.c1 {
+  font-size: 16px;
+  font-family: Menlo,monospace;
+  margin: 0px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  padding: 8px;
+  overflow: auto;
+  background-color: #f6f6fc;
+}
+
+<div
+  className="c0"
+>
+  <pre
+    className="c1"
+  >
+    
+  import React from 'react'
+  import { Pre as Base } from 'rebass'
+
+  const Pre = props =&gt;
+    &lt;Base
+      fontSize={2}
+      my={3}
+      p={2}
+      bg='#f6f6fc'
+      {...props}
+    /&gt;
+
+  </pre>
+</div>
+`;
+
+exports[`Section renders 1`] = `
+.c0 {
+  font-family: "Avenir Next",Helvetica,sans-serif;
+}
+
+.c0 * {
+  box-sizing: border-box;
+}
+
+.c1 {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+  max-width: 1024px;
+}
+
+<div
+  className="c0"
+>
+  <section
+    className="c1"
+  >
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  </section>
+</div>
+`;

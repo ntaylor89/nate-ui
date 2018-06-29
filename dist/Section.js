@@ -6,15 +6,25 @@ Object.defineProperty(exports, "__esModule", {
 
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
-var _systemComponents = require('system-components');
+var _react = require('react');
 
-var _systemComponents2 = _interopRequireDefault(_systemComponents);
+var _react2 = _interopRequireDefault(_react);
+
+var _rebass = require('rebass');
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-exports.default = (0, _systemComponents2.default)(function (props) {
-  return _extends({
-    is: 'section',
-    mt: 5
-  }, props.measure && { maxWidth: '32rem' });
-});
+function _objectWithoutProperties(obj, keys) { var target = {}; for (var i in obj) { if (keys.indexOf(i) >= 0) continue; if (!Object.prototype.hasOwnProperty.call(obj, i)) continue; target[i] = obj[i]; } return target; }
+
+var Section = function Section(_ref) {
+  var measure = _ref.measure,
+      props = _objectWithoutProperties(_ref, ['measure']);
+
+  return _react2.default.createElement(_rebass.Container, _extends({
+    is: 'section'
+  }, props));
+};
+
+Section.displayName = 'Section';
+
+exports.default = Section;

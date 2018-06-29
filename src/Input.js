@@ -1,10 +1,14 @@
 import React from 'react'
-import { Input } from 'rebass'
+import { Input as Base } from 'rebass'
 
-export default props =>
-  <Input
+const Input = props =>
+  <Base
     my={2}
     px={3}
     py={2}
     {...props}
   />
+
+Input.displayName = 'Input'
+
+export default Input

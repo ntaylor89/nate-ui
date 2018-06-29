@@ -1,12 +1,14 @@
 import React from 'react'
+import withTheme from './_withTheme'
 import {
   Dd,
   Dl,
   Dt
 } from '../src'
 
-export default () =>
-  <Dl>
+export default withTheme(() =>
+  <Dl textAlign='center'>
     <Dt display='none'>Title</Dt>
-    <Dd center={true}>My Title</Dd>
+    <Dd>My Title</Dd>
   </Dl>
+)

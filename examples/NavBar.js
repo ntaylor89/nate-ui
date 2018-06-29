@@ -1,6 +1,6 @@
 import React from 'react'
-import { NavBar, NavLink } from '../src'
 import withTheme from './_withTheme'
+import { NavBar, NavLink } from '../src'
 
 export default withTheme(() =>
   <NavBar logo='My Site'>
