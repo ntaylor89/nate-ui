@@ -734,6 +734,59 @@ exports[`Dl renders 1`] = `
 </div>
 `;
 
+exports[`Flex renders 1`] = `
+.c4 {
+  box-sizing: border-box;
+}
+
+.c3 {
+  box-sizing: border-box;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  background-color: #0CE890;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c0 {
+  font-family: "Avenir Next",Helvetica,sans-serif;
+}
+
+.c0 * {
+  box-sizing: border-box;
+}
+
+.c1 {
+  height: 100%;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1 c2 c3"
+  >
+    <div
+      className="c4"
+    >
+      Flex
+    </div>
+  </div>
+</div>
+`;
+
 exports[`Footer renders 1`] = `
 .c1 {
   box-sizing: border-box;
@@ -1170,10 +1223,6 @@ exports[`Input renders 1`] = `
 `;
 
 exports[`Li renders 1`] = `
-.c1 {
-  box-sizing: border-box;
-}
-
 .c0 {
   font-family: "Avenir Next",Helvetica,sans-serif;
 }
@@ -1182,7 +1231,7 @@ exports[`Li renders 1`] = `
   box-sizing: border-box;
 }
 
-.c2 {
+.c1 {
   margin: 0px;
   margin-bottom: 8px;
   font-size: 24px;
@@ -1192,20 +1241,20 @@ exports[`Li renders 1`] = `
   className="c0"
 >
   <ul
-    className="c1"
+    className=""
   >
     <li
-      className="c2"
+      className="c1"
     >
       Thing 1
     </li>
     <li
-      className="c2"
+      className="c1"
     >
       Thing A
     </li>
     <li
-      className="c2"
+      className="c1"
     >
       Thing Blue
     </li>
@@ -1678,5 +1727,110 @@ exports[`Section renders 1`] = `
   >
     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
   </section>
+</div>
+`;
+
+exports[`Select renders 1`] = `
+.c2 {
+  box-sizing: border-box;
+}
+
+.c0 {
+  font-family: "Avenir Next",Helvetica,sans-serif;
+}
+
+.c0 * {
+  box-sizing: border-box;
+}
+
+.c3 {
+  margin: 0px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  width: 100%;
+  border: 0;
+  border-color: #647171;
+  box-shadow: inset 0 0 0 1px #eee;
+  border-radius: 4px;
+  color: inherit;
+  background-color: transparent;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 100%;
+  border: 0;
+  background: url("data:image/svg+xml;utf8,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20width='32'%20height='32'%20viewbox='0%200%2032%2032'%20fill='currentcolor'%3E%20%3Cpath%20d='M0%206%20L32%206%20L16%2028%20z'%20/%3E%20%3C/svg%3E");
+  background-position: calc(100% - 8px) center;
+  background-repeat: no-repeat;
+  background-size: 8px 8px;
+}
+
+.c3:disabled {
+  opacity: 0.25;
+}
+
+.c3:focus {
+  outline: none;
+  box-shadow: inset 0 0 0 1px #07c;
+}
+
+.c1 {
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  max-width: 1024px;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1 c2"
+  >
+    <select
+      className="c3"
+    >
+      <option>
+        Hi
+      </option>
+      <option>
+        There
+      </option>
+    </select>
+  </div>
+</div>
+`;
+
+exports[`SubHead renders 1`] = `
+.c0 {
+  font-family: "Avenir Next",Helvetica,sans-serif;
+}
+
+.c0 * {
+  box-sizing: border-box;
+}
+
+.c1 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.125;
+  margin: 0px;
+}
+
+<div
+  className="c0"
+>
+  <h3
+    className="c1"
+  >
+    Subheading
+  </h3>
 </div>
 `;

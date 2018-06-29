@@ -1,9 +1,7 @@
 export {
   BackgroundImage,
   BlockLink,
-  Box,
   Container,
-  Flex,
   Image,
   Link,
   NavLink,
@@ -14,6 +12,7 @@ export { default as Provider } from './Provider'
 export { default as theme } from './theme'
 
 export { default as Blockquote } from './Blockquote'
+export { default as Box } from './Box'
 export { default as Button } from './Button'
 export { default as ButtonOutline } from './ButtonOutline'
 export { default as Code } from './Code'
@@ -21,6 +20,7 @@ export { default as Dd } from './Dd'
 export { default as Divider } from './Divider'
 export { default as Dl } from './Dl'
 export { default as Dt } from './Dt'
+export { default as Flex } from './Flex'
 export { default as Footer } from './Footer'
 export { default as H1 } from './H1'
 export { default as H2 } from './H2'

@@ -18,22 +18,10 @@ Object.defineProperty(exports, 'BlockLink', {
     return _rebass.BlockLink;
   }
 });
-Object.defineProperty(exports, 'Box', {
-  enumerable: true,
-  get: function get() {
-    return _rebass.Box;
-  }
-});
 Object.defineProperty(exports, 'Container', {
   enumerable: true,
   get: function get() {
     return _rebass.Container;
-  }
-});
-Object.defineProperty(exports, 'Flex', {
-  enumerable: true,
-  get: function get() {
-    return _rebass.Flex;
   }
 });
 Object.defineProperty(exports, 'Image', {
@@ -85,6 +73,15 @@ Object.defineProperty(exports, 'Blockquote', {
   enumerable: true,
   get: function get() {
     return _interopRequireDefault(_Blockquote).default;
+  }
+});
+
+var _Box = require('./Box');
+
+Object.defineProperty(exports, 'Box', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_Box).default;
   }
 });
 
@@ -148,6 +145,15 @@ Object.defineProperty(exports, 'Dt', {
   enumerable: true,
   get: function get() {
     return _interopRequireDefault(_Dt).default;
+  }
+});
+
+var _Flex = require('./Flex');
+
+Object.defineProperty(exports, 'Flex', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_Flex).default;
   }
 });
 
