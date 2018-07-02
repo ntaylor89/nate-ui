@@ -23,10 +23,7 @@ var Footer = function Footer(props) {
       null,
       _react2.default.createElement(
         _rebass.Text,
-        {
-          textAlign: 'center',
-          color: 'gray'
-        },
+        { textAlign: 'center' },
         'Made with <3 by Nate Taylor'
       )
     )

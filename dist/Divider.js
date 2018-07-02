@@ -33,7 +33,7 @@ var Divider = (0, _styledComponents2.default)(function (_ref) {
 
 Divider.defaultProps = {
   my: 4,
-  borderColor: 'gray'
+  borderColor: 'inherit'
 };
 
 Divider.displayName = 'Divider';

@@ -12,9 +12,10 @@ const Divider = styled(({
 
 Divider.defaultProps = {
   my: 4,
-  borderColor: 'gray'
+  borderColor: 'inherit'
 }
 
 Divider.displayName = 'Divider'
 
 export default Divider
+
